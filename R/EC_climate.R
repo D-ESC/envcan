@@ -5,7 +5,11 @@ library(lubridate)
 
 envcan <- function(StationID, firstYear, lastYear, timeframe = 2) {
 
-  years = seq(firstYear, lastYear)
+  years <- if (timeframe == 3) {
+    firstYear
+  } else {
+    seq(firstYear, lastYear)
+  }
 
   h <- if (timeframe == 1) {
     16

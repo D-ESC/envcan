@@ -35,7 +35,7 @@ envcan <- function(StationID, firstYear, lastYear, timeframe = 2) {
       month <- m[i]
 
       URL <- paste(
-        'http://climat.weather.gc.ca/climateData/bulkdata_e.html?format=csv&stationID=',
+        'http://climat.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=',
         StationID,
         '&Year=',
         year,

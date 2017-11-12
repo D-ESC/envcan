@@ -1,4 +1,8 @@
 # envcan
+
+# install.packages("devtools")
+devtools::install_github("D-ESC/envcan")
+
 Download data in bulk from Environment Canada Climate Website. Based on URL based procedure to automatically download data in bulk from Climate Website. List of available data is located here.  (ftp://ftp.tor.ec.gc.ca/Pub/Get_More_Data_Plus_de_donnees/)
 
 ```{R}

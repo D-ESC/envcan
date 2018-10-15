@@ -12,9 +12,9 @@ envcan <- function(StationID, firstYear, lastYear, timeframe = 2) {
   }
 
   h <- if (timeframe == 1) {
-    16
+    15
   } else if (timeframe == 2) {
-    25
+    24
   } else if (timeframe == 3) {
     18
   }
